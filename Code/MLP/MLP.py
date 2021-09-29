@@ -12,7 +12,7 @@ from tensorflow.keras.layers import Dense
 
 
 # Load datasets
-df = pd.read_excel('MOF_crystallinity experiments.xlsx').drop(['No'], axis =1)
+df = pd.read_csv('MOF_crystal.csv').drop(['No'], axis =1)
 
 # Histogram
 plt.figure(figsize = (10, 8))
